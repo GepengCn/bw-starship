@@ -1,9 +1,9 @@
-package org.jetbrains.plugins.template.listeners
+package com.github.gepengcn.bwstarship.listeners
 
 import com.intellij.openapi.components.service
 import com.intellij.openapi.project.Project
 import com.intellij.openapi.project.ProjectManagerListener
-import org.jetbrains.plugins.template.services.MyProjectService
+import com.github.gepengcn.bwstarship.services.MyProjectService
 
 internal class MyProjectManagerListener : ProjectManagerListener {
 
